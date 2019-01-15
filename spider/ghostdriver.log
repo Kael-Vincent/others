@@ -1,0 +1,18 @@
+[INFO  - 2018-08-17T09:29:35.441Z] GhostDriver - Main - running on port 19245
+[INFO  - 2018-08-17T09:29:38.507Z] Session [0fe2ed70-a200-11e8-9497-b3e3ac6b8daa] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-08-17T09:29:38.507Z] Session [0fe2ed70-a200-11e8-9497-b3e3ac6b8daa] - page.customHeaders:  - {}
+[INFO  - 2018-08-17T09:29:38.507Z] Session [0fe2ed70-a200-11e8-9497-b3e3ac6b8daa] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-08-17T09:29:38.507Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0fe2ed70-a200-11e8-9497-b3e3ac6b8daa
+[ERROR - 2018-08-17T09:29:38.851Z] Session [0fe2ed70-a200-11e8-9497-b3e3ac6b8daa] - page.onError - msg: Error: [vuex] vuex requires a Promise polyfill in this browser.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-08-17T09:29:38.852Z] Session [0fe2ed70-a200-11e8-9497-b3e3ac6b8daa] - page.onError - stack:
+  a (http://collection.admin.test.com/static/js/vendor.64cfe171cd3e0bc27bb1.js:6)
+  D (http://collection.admin.test.com/static/js/vendor.64cfe171cd3e0bc27bb1.js:11)
+  (anonymous function) (http://collection.admin.test.com/static/js/app.6057c6062230dfa0fa29.js:1)
+  c (http://collection.admin.test.com/static/js/manifest.0e7c7040a2e562bc1d19.js:1)
+  (anonymous function) (http://collection.admin.test.com/static/js/app.6057c6062230dfa0fa29.js:1)
+  c (http://collection.admin.test.com/static/js/manifest.0e7c7040a2e562bc1d19.js:1)
+  webpackJsonp (http://collection.admin.test.com/static/js/manifest.0e7c7040a2e562bc1d19.js:1)
+
+  phantomjs://platform/console++.js:263 in error
